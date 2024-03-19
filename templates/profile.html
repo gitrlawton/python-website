@@ -1,0 +1,8 @@
+<!-- Create a block here that extends the html page you want to copy the   -->
+<!-- structure from, and add inside the unique content that you'd like     -->
+<!-- to override the other page's content block with. That way, when you   -->
+<!-- visit profile.html, the page will display "This is the profile page!" -->
+{% extends "index.html" %}
+{% block content %}
+<h1>This is the profile page!</h1>
+{% endblock %}
